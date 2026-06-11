@@ -1,6 +1,6 @@
 # TCP-Chat-Server — C Multi-Client TCP Chat Server
 
-*CMPSC 311 — Introduction to Systems Programming · Penn State · 2022*
+*CMPSC 311 — Introduction to Systems Programming · The Pennsylvania State University · 2022*
 
 A chat server that lets multiple people message each other in real time from a terminal. Anyone can connect, pick a username, and send messages that are instantly broadcast to everyone else. The server handles up to 20 simultaneous users without spawning extra processes or threads.
 
