@@ -121,4 +121,4 @@ TCP-Chat-Server/
 ## Course
 
 CMPSC 311 — Introduction to Systems Programming  
-The Pennsylvania State University · Summer 2022
+The Pennsylvania State University · 2022
