@@ -10,6 +10,8 @@ Written in C using POSIX TCP sockets. A single-threaded server uses `select()` t
 
 **[Live Demo →](https://halkhoori2000.github.io/TCP-Chat-Server/)**
 
+**[📄 Project Documentation (PDF)](docs/documentation.pdf)**
+
 ## Use Cases
 - Terminal-based team communication for development environments or server rooms with no GUI
 - Backend messaging layer for multiplayer games and applications where reliability matters more than low latency
