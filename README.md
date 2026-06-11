@@ -2,6 +2,8 @@
 
 *CMPSC 311 — Introduction to Systems Programming · The Pennsylvania State University · 2022*
 
+*Built as a four-person course team project — this repository contains the backend (TCP server and client).*
+
 A chat server that lets multiple people message each other in real time from a terminal. Anyone can connect, pick a username, and send messages that are instantly broadcast to everyone else. The server handles up to 20 simultaneous users without spawning extra processes or threads.
 
 Written in C using POSIX TCP sockets. A single-threaded server uses `select()` to monitor all connected client sockets and stdin simultaneously, replacing the naive fork-per-client model. Enforces username uniqueness on connection, broadcasts messages with the sender prefix to all other file descriptors, and cleans up the FD set cleanly on disconnect.
