@@ -2,7 +2,7 @@
 
 *CMPSC 311 — Introduction to Systems Programming · The Pennsylvania State University · 2022*
 
-*Built as a four-person course team project — this repository contains the backend (TCP server and client).*
+*Built as a five-person course team project — this repository contains the backend (TCP server and client).*
 
 A chat server that lets multiple people message each other in real time from a terminal. Anyone can connect, pick a username, and send messages that are instantly broadcast to everyone else. The server handles up to 20 simultaneous users without spawning extra processes or threads.
 
